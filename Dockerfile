@@ -1,6 +1,6 @@
 FROM node:alpine
 
-MAINTAINER gzlock gzlock@mail.com
+MAINTAINER gzlock gzlock@gmail.com
 
 RUN apk add --no-cache \
     build-base \
