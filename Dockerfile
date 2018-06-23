@@ -1,6 +1,6 @@
 FROM node:latest
 
-RUN apk add --no-cache \
+RUN sudo apt-get --no-cache \
     build-base \
     g++ \
     cairo-dev \
