@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'main'
+  watch:
+    types: [ started ] # 有人点星星就执行
 
 jobs:
   docker:
